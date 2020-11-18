@@ -1,0 +1,164 @@
+//
+//  AirportCodeList.swift
+//  jphacks
+//
+//  Created by 山下陽央 on 2019/10/27.
+//  Copyright © 2019 山下陽央. All rights reserved.
+//
+
+import Foundation
+
+enum AirportCodeList: String, CaseIterable {
+    case 高松
+    case 佐賀
+    case 宮古
+    case 福岡
+    case 石垣
+    case 女満別
+    case 熊本
+    case 稚内
+    case 旭川
+    case 八丈島
+    case 小松
+    case 紋別
+    case 函館
+    case 岩国
+    case 岡山
+    case 米子
+    case 松山
+    case 南紀白浜
+    case 大館能代
+    case 秋田
+    case 釧路
+    case 広島
+    case 大分
+    case 富山
+    case 山口宇部
+    case 鹿児島
+    case 宮崎
+    case 萩・石見
+    case 青森
+    case 山形
+    case 能登
+    case 神戸
+    case 出雲
+    case 徳島
+    case 庄内
+    case 帯広
+    case 北九州
+    case 中標津
+    case 鳥取
+    case 高知
+    case 長崎
+    case 羽田
+    case 奄美
+    case 大阪国際
+    case 三沢
+    case 新千歳
+    case 中部国際
+    case 関西国際
+    case 那覇
+    
+    var code: String {
+        switch self {
+        case .高松:
+            return "TAK"
+        case .佐賀:
+            return "HSG"
+        case .宮古:
+            return "MMY"
+        case .福岡:
+            return "FUK"
+        case .石垣:
+            return "ISG"
+        case .女満別:
+            return "MMB"
+        case .熊本:
+            return "KMJ"
+        case .稚内:
+            return "WKJ"
+        case .旭川:
+            return "AKJ"
+        case .八丈島:
+            return "HAC"
+        case .小松:
+            return "KMQ"
+        case .紋別:
+            return "MBE"
+        case .函館:
+            return "HKD"
+        case .岩国:
+            return "IWK"
+        case .岡山:
+            return "OKJ"
+        case .米子:
+            return "YGJ"
+        case .松山:
+            return "MYJ"
+        case .南紀白浜:
+            return "SHM"
+        case .大館能代:
+            return "ONJ"
+        case .秋田:
+            return "AXT"
+        case .釧路:
+            return "KUH"
+        case .広島:
+            return "HIJ"
+        case .大分:
+            return "OIT"
+        case .富山:
+            return "TOY"
+        case .山口宇部:
+            return "UBJ"
+        case .鹿児島:
+            return "KOJ"
+        case .宮崎:
+            return "KMI"
+        case .萩・石見:
+            return "IWJ"
+        case .青森:
+            return "AOJ"
+        case .山形:
+            return "GAJ"
+        case .能登:
+            return "NTQ"
+        case .神戸:
+            return "UKB"
+        case .出雲:
+            return "IZO"
+        case .徳島:
+            return "TKS"
+        case .庄内:
+            return "SYO"
+        case .帯広:
+            return "OBO"
+        case .北九州:
+            return "KKJ"
+        case .中標津:
+            return "SHB"
+        case .鳥取:
+            return "TTJ"
+        case .高知:
+            return "KCZ"
+        case .長崎:
+            return "NGS"
+        case .羽田:
+            return "HND"
+        case .奄美:
+            return "ASJ"
+        case .大阪国際:
+            return "ITM"
+        case .三沢:
+            return "MSJ"
+        case .新千歳:
+            return "CTS"
+        case .中部国際:
+            return "NGO"
+        case .関西国際:
+            return "KIX"
+        case .那覇:
+            return "OKA"
+        }
+    }
+}

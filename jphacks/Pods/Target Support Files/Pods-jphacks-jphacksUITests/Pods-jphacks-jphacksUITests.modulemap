@@ -1,0 +1,6 @@
+framework module Pods_jphacks_jphacksUITests {
+  umbrella header "Pods-jphacks-jphacksUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E39F152C87B8B2F4D3DCDBE /* Pods_jphacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B24F0930E51F3F12BF2F19 /* Pods_jphacksTests.framework */; };
+		6163CB2200C347775B258FC1 /* Pods_jphacks_jphacksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1202D0CF735340F8222F6468 /* Pods_jphacks_jphacksUITests.framework */; };
+		640C9C6D2363D69D0011C8B0 /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640C9C6C2363D69D0011C8B0 /* RouteViewController.swift */; };
+		640C9C712363D8FB0011C8B0 /* RouteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 640C9C702363D8FB0011C8B0 /* RouteViewController.xib */; };
+		64E552FD23632C0600F172F4 /* PlanCandidatesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E552FB23632C0600F172F4 /* PlanCandidatesTableViewCell.swift */; };
+		64E552FE23632C0600F172F4 /* PlanCandidatesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64E552FC23632C0600F172F4 /* PlanCandidatesTableViewCell.xib */; };
+		666D9F55236488B300C91AC9 /* Calendar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666D9F54236488B300C91AC9 /* Calendar+Extension.swift */; };
+		666D9F582364A61000C91AC9 /* TripInfoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666D9F572364A61000C91AC9 /* TripInfoRepository.swift */; };
+		666D9F5A2365346200C91AC9 /* AirportCodeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666D9F592365346200C91AC9 /* AirportCodeList.swift */; };
+		666D9F5C23654E5B00C91AC9 /* RetuernTripCandidatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666D9F5B23654E5B00C91AC9 /* RetuernTripCandidatesView.swift */; };
+		666D9F5E23654E7000C91AC9 /* RetuernTripCandidatesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 666D9F5D23654E7000C91AC9 /* RetuernTripCandidatesView.xib */; };
+		66D0E56923630F1800CFA256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0E56823630F1800CFA256 /* AppDelegate.swift */; };
+		66D0E56B23630F1800CFA256 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0E56A23630F1800CFA256 /* SceneDelegate.swift */; };
+		66D0E56D23630F1800CFA256 /* CancelledTicketInfoInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0E56C23630F1800CFA256 /* CancelledTicketInfoInputViewController.swift */; };
+		66D0E57023630F1800CFA256 /* CancelledTicketInfoInputViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D0E56E23630F1800CFA256 /* CancelledTicketInfoInputViewController.storyboard */; };
+		66D0E57223630F1900CFA256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D0E57123630F1900CFA256 /* Assets.xcassets */; };
+		66D0E57523630F1900CFA256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D0E57323630F1900CFA256 /* LaunchScreen.storyboard */; };
+		66D0E58023630F1900CFA256 /* jphacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0E57F23630F1900CFA256 /* jphacksTests.swift */; };
+		66D0E58B23630F1900CFA256 /* jphacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0E58A23630F1900CFA256 /* jphacksUITests.swift */; };
+		66D0E59A236311CF00CFA256 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0E599236311CF00CFA256 /* R.generated.swift */; };
+		66D0E59C2363191B00CFA256 /* TripInfoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0E59B2363191B00CFA256 /* TripInfoClient.swift */; };
+		66D0E59E2363196A00CFA256 /* TripInfoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0E59D2363196A00CFA256 /* TripInfoApi.swift */; };
+		66F5C0A42363F52F0049D6D6 /* PlanCandidatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F5C0A22363F52F0049D6D6 /* PlanCandidatesTableViewController.swift */; };
+		66F5C0A52363F52F0049D6D6 /* PlanCandidatesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66F5C0A32363F52F0049D6D6 /* PlanCandidatesTableViewController.xib */; };
+		66F5C0A7236421C60049D6D6 /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F5C0A6236421C60049D6D6 /* TextField+Extension.swift */; };
+		94BF321676145CB06C7CCA5B /* Pods_jphacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6608C310A20F708F75CE795B /* Pods_jphacks.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66D0E57C23630F1900CFA256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66D0E55D23630F1800CFA256 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66D0E56423630F1800CFA256;
+			remoteInfo = jphacks;
+		};
+		66D0E58723630F1900CFA256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66D0E55D23630F1800CFA256 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66D0E56423630F1800CFA256;
+			remoteInfo = jphacks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C625CC566F6D28094C2D8DE /* Pods-jphacksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jphacksTests.debug.xcconfig"; path = "Target Support Files/Pods-jphacksTests/Pods-jphacksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C8AD8C6245F37565AA81509 /* Pods-jphacksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jphacksTests.release.xcconfig"; path = "Target Support Files/Pods-jphacksTests/Pods-jphacksTests.release.xcconfig"; sourceTree = "<group>"; };
+		1202D0CF735340F8222F6468 /* Pods_jphacks_jphacksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jphacks_jphacksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9FFF0C72E9539F9CE2B7A7 /* Pods-jphacks-jphacksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jphacks-jphacksUITests.debug.xcconfig"; path = "Target Support Files/Pods-jphacks-jphacksUITests/Pods-jphacks-jphacksUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		640C9C6C2363D69D0011C8B0 /* RouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
+		640C9C702363D8FB0011C8B0 /* RouteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RouteViewController.xib; sourceTree = "<group>"; };
+		64E552FB23632C0600F172F4 /* PlanCandidatesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanCandidatesTableViewCell.swift; sourceTree = "<group>"; };
+		64E552FC23632C0600F172F4 /* PlanCandidatesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlanCandidatesTableViewCell.xib; sourceTree = "<group>"; };
+		6608C310A20F708F75CE795B /* Pods_jphacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jphacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		666D9F54236488B300C91AC9 /* Calendar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+Extension.swift"; sourceTree = "<group>"; };
+		666D9F572364A61000C91AC9 /* TripInfoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripInfoRepository.swift; sourceTree = "<group>"; };
+		666D9F592365346200C91AC9 /* AirportCodeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportCodeList.swift; sourceTree = "<group>"; };
+		666D9F5B23654E5B00C91AC9 /* RetuernTripCandidatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetuernTripCandidatesView.swift; sourceTree = "<group>"; };
+		666D9F5D23654E7000C91AC9 /* RetuernTripCandidatesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RetuernTripCandidatesView.xib; sourceTree = "<group>"; };
+		66D0E56523630F1800CFA256 /* ATP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D0E56823630F1800CFA256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66D0E56A23630F1800CFA256 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		66D0E56C23630F1800CFA256 /* CancelledTicketInfoInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelledTicketInfoInputViewController.swift; sourceTree = "<group>"; };
+		66D0E56F23630F1800CFA256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CancelledTicketInfoInputViewController.storyboard; sourceTree = "<group>"; };
+		66D0E57123630F1900CFA256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66D0E57423630F1900CFA256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66D0E57623630F1900CFA256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66D0E57B23630F1900CFA256 /* jphacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jphacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D0E57F23630F1900CFA256 /* jphacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jphacksTests.swift; sourceTree = "<group>"; };
+		66D0E58123630F1900CFA256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66D0E58623630F1900CFA256 /* jphacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jphacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D0E58A23630F1900CFA256 /* jphacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jphacksUITests.swift; sourceTree = "<group>"; };
+		66D0E58C23630F1900CFA256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66D0E599236311CF00CFA256 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		66D0E59B2363191B00CFA256 /* TripInfoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripInfoClient.swift; sourceTree = "<group>"; };
+		66D0E59D2363196A00CFA256 /* TripInfoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripInfoApi.swift; sourceTree = "<group>"; };
+		66F5C0A22363F52F0049D6D6 /* PlanCandidatesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanCandidatesTableViewController.swift; sourceTree = "<group>"; };
+		66F5C0A32363F52F0049D6D6 /* PlanCandidatesTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlanCandidatesTableViewController.xib; sourceTree = "<group>"; };
+		66F5C0A6236421C60049D6D6 /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
+		77B24F0930E51F3F12BF2F19 /* Pods_jphacksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jphacksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB55FA643A66CE71FE801D3F /* Pods-jphacks-jphacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jphacks-jphacksUITests.release.xcconfig"; path = "Target Support Files/Pods-jphacks-jphacksUITests/Pods-jphacks-jphacksUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F7A406311F15CA828D06F307 /* Pods-jphacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jphacks.debug.xcconfig"; path = "Target Support Files/Pods-jphacks/Pods-jphacks.debug.xcconfig"; sourceTree = "<group>"; };
+		FC2A5A2D22C1DD82A90F5B9C /* Pods-jphacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jphacks.release.xcconfig"; path = "Target Support Files/Pods-jphacks/Pods-jphacks.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66D0E56223630F1800CFA256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BF321676145CB06C7CCA5B /* Pods_jphacks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D0E57823630F1900CFA256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E39F152C87B8B2F4D3DCDBE /* Pods_jphacksTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D0E58323630F1900CFA256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6163CB2200C347775B258FC1 /* Pods_jphacks_jphacksUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E4FE633B2BCBA24FB1F4C26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7A406311F15CA828D06F307 /* Pods-jphacks.debug.xcconfig */,
+				FC2A5A2D22C1DD82A90F5B9C /* Pods-jphacks.release.xcconfig */,
+				3C9FFF0C72E9539F9CE2B7A7 /* Pods-jphacks-jphacksUITests.debug.xcconfig */,
+				BB55FA643A66CE71FE801D3F /* Pods-jphacks-jphacksUITests.release.xcconfig */,
+				0C625CC566F6D28094C2D8DE /* Pods-jphacksTests.debug.xcconfig */,
+				0C8AD8C6245F37565AA81509 /* Pods-jphacksTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		666D9F532364884700C91AC9 /* RetuernTripCandidatesView */ = {
+			isa = PBXGroup;
+			children = (
+				666D9F5B23654E5B00C91AC9 /* RetuernTripCandidatesView.swift */,
+				666D9F5D23654E7000C91AC9 /* RetuernTripCandidatesView.xib */,
+			);
+			path = RetuernTripCandidatesView;
+			sourceTree = "<group>";
+		};
+		666D9F56236488D800C91AC9 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				66F5C0A6236421C60049D6D6 /* TextField+Extension.swift */,
+				666D9F54236488B300C91AC9 /* Calendar+Extension.swift */,
+				666D9F572364A61000C91AC9 /* TripInfoRepository.swift */,
+				666D9F592365346200C91AC9 /* AirportCodeList.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		66D0E55C23630F1800CFA256 = {
+			isa = PBXGroup;
+			children = (
+				66D0E56723630F1800CFA256 /* jphacks */,
+				66D0E57E23630F1900CFA256 /* jphacksTests */,
+				66D0E58923630F1900CFA256 /* jphacksUITests */,
+				66D0E56623630F1800CFA256 /* Products */,
+				5E4FE633B2BCBA24FB1F4C26 /* Pods */,
+				C28CE23255C7D7CFFCE61FC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66D0E56623630F1800CFA256 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66D0E56523630F1800CFA256 /* ATP.app */,
+				66D0E57B23630F1900CFA256 /* jphacksTests.xctest */,
+				66D0E58623630F1900CFA256 /* jphacksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66D0E56723630F1800CFA256 /* jphacks */ = {
+			isa = PBXGroup;
+			children = (
+				66D0E599236311CF00CFA256 /* R.generated.swift */,
+				66D0E56823630F1800CFA256 /* AppDelegate.swift */,
+				66D0E56A23630F1800CFA256 /* SceneDelegate.swift */,
+				666D9F56236488D800C91AC9 /* Utility */,
+				66F5C0982363EDBA0049D6D6 /* CancelledTicketInfoInputViewController */,
+				66F5C0972363EDAC0049D6D6 /* API */,
+				66F5C0952363ED5F0049D6D6 /* PlanCandidatesTableViewCell */,
+				66F5C09D2363F4670049D6D6 /* PlanCandidatesTableViewController */,
+				66F5C0962363ED890049D6D6 /* RouteViewController */,
+				666D9F532364884700C91AC9 /* RetuernTripCandidatesView */,
+				66D0E57123630F1900CFA256 /* Assets.xcassets */,
+				66D0E57323630F1900CFA256 /* LaunchScreen.storyboard */,
+				66D0E57623630F1900CFA256 /* Info.plist */,
+			);
+			path = jphacks;
+			sourceTree = "<group>";
+		};
+		66D0E57E23630F1900CFA256 /* jphacksTests */ = {
+			isa = PBXGroup;
+			children = (
+				66D0E57F23630F1900CFA256 /* jphacksTests.swift */,
+				66D0E58123630F1900CFA256 /* Info.plist */,
+			);
+			path = jphacksTests;
+			sourceTree = "<group>";
+		};
+		66D0E58923630F1900CFA256 /* jphacksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66D0E58A23630F1900CFA256 /* jphacksUITests.swift */,
+				66D0E58C23630F1900CFA256 /* Info.plist */,
+			);
+			path = jphacksUITests;
+			sourceTree = "<group>";
+		};
+		66F5C0952363ED5F0049D6D6 /* PlanCandidatesTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				64E552FB23632C0600F172F4 /* PlanCandidatesTableViewCell.swift */,
+				64E552FC23632C0600F172F4 /* PlanCandidatesTableViewCell.xib */,
+			);
+			path = PlanCandidatesTableViewCell;
+			sourceTree = "<group>";
+		};
+		66F5C0962363ED890049D6D6 /* RouteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				640C9C6C2363D69D0011C8B0 /* RouteViewController.swift */,
+				640C9C702363D8FB0011C8B0 /* RouteViewController.xib */,
+			);
+			path = RouteViewController;
+			sourceTree = "<group>";
+		};
+		66F5C0972363EDAC0049D6D6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				66D0E59B2363191B00CFA256 /* TripInfoClient.swift */,
+				66D0E59D2363196A00CFA256 /* TripInfoApi.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		66F5C0982363EDBA0049D6D6 /* CancelledTicketInfoInputViewController */ = {
+			isa = PBXGroup;
+			children = (
+				66D0E56E23630F1800CFA256 /* CancelledTicketInfoInputViewController.storyboard */,
+				66D0E56C23630F1800CFA256 /* CancelledTicketInfoInputViewController.swift */,
+			);
+			path = CancelledTicketInfoInputViewController;
+			sourceTree = "<group>";
+		};
+		66F5C09D2363F4670049D6D6 /* PlanCandidatesTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				66F5C0A22363F52F0049D6D6 /* PlanCandidatesTableViewController.swift */,
+				66F5C0A32363F52F0049D6D6 /* PlanCandidatesTableViewController.xib */,
+			);
+			path = PlanCandidatesTableViewController;
+			sourceTree = "<group>";
+		};
+		C28CE23255C7D7CFFCE61FC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6608C310A20F708F75CE795B /* Pods_jphacks.framework */,
+				1202D0CF735340F8222F6468 /* Pods_jphacks_jphacksUITests.framework */,
+				77B24F0930E51F3F12BF2F19 /* Pods_jphacksTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66D0E56423630F1800CFA256 /* jphacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D0E58F23630F1900CFA256 /* Build configuration list for PBXNativeTarget "jphacks" */;
+			buildPhases = (
+				55112F16EA5E3FD582A7B106 /* [CP] Check Pods Manifest.lock */,
+				66D0E56223630F1800CFA256 /* Frameworks */,
+				66D0E56323630F1800CFA256 /* Resources */,
+				DEA1B22534DD59C795E992F8 /* [CP] Embed Pods Frameworks */,
+				66D0E5982363117700CFA256 /* ShellScript */,
+				66D0E56123630F1800CFA256 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jphacks;
+			productName = jphacks;
+			productReference = 66D0E56523630F1800CFA256 /* ATP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66D0E57A23630F1900CFA256 /* jphacksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D0E59223630F1900CFA256 /* Build configuration list for PBXNativeTarget "jphacksTests" */;
+			buildPhases = (
+				044C2586310716012476432D /* [CP] Check Pods Manifest.lock */,
+				66D0E57723630F1900CFA256 /* Sources */,
+				66D0E57823630F1900CFA256 /* Frameworks */,
+				66D0E57923630F1900CFA256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66D0E57D23630F1900CFA256 /* PBXTargetDependency */,
+			);
+			name = jphacksTests;
+			productName = jphacksTests;
+			productReference = 66D0E57B23630F1900CFA256 /* jphacksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66D0E58523630F1900CFA256 /* jphacksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D0E59523630F1900CFA256 /* Build configuration list for PBXNativeTarget "jphacksUITests" */;
+			buildPhases = (
+				8B31A8EA1FB16BE485DB1D87 /* [CP] Check Pods Manifest.lock */,
+				66D0E58223630F1900CFA256 /* Sources */,
+				66D0E58323630F1900CFA256 /* Frameworks */,
+				66D0E58423630F1900CFA256 /* Resources */,
+				3AF7F6E36EE81DFEA4099F8E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66D0E58823630F1900CFA256 /* PBXTargetDependency */,
+			);
+			name = jphacksUITests;
+			productName = jphacksUITests;
+			productReference = 66D0E58623630F1900CFA256 /* jphacksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66D0E55D23630F1800CFA256 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "山下陽央";
+				TargetAttributes = {
+					66D0E56423630F1800CFA256 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					66D0E57A23630F1900CFA256 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 66D0E56423630F1800CFA256;
+					};
+					66D0E58523630F1900CFA256 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 66D0E56423630F1800CFA256;
+					};
+				};
+			};
+			buildConfigurationList = 66D0E56023630F1800CFA256 /* Build configuration list for PBXProject "jphacks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66D0E55C23630F1800CFA256;
+			productRefGroup = 66D0E56623630F1800CFA256 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66D0E56423630F1800CFA256 /* jphacks */,
+				66D0E57A23630F1900CFA256 /* jphacksTests */,
+				66D0E58523630F1900CFA256 /* jphacksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66D0E56323630F1800CFA256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F5C0A52363F52F0049D6D6 /* PlanCandidatesTableViewController.xib in Resources */,
+				66D0E57523630F1900CFA256 /* LaunchScreen.storyboard in Resources */,
+				640C9C712363D8FB0011C8B0 /* RouteViewController.xib in Resources */,
+				66D0E57223630F1900CFA256 /* Assets.xcassets in Resources */,
+				64E552FE23632C0600F172F4 /* PlanCandidatesTableViewCell.xib in Resources */,
+				666D9F5E23654E7000C91AC9 /* RetuernTripCandidatesView.xib in Resources */,
+				66D0E57023630F1800CFA256 /* CancelledTicketInfoInputViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D0E57923630F1900CFA256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D0E58423630F1900CFA256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		044C2586310716012476432D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jphacksTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AF7F6E36EE81DFEA4099F8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jphacks-jphacksUITests/Pods-jphacks-jphacksUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jphacks-jphacksUITests/Pods-jphacks-jphacksUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jphacks-jphacksUITests/Pods-jphacks-jphacksUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55112F16EA5E3FD582A7B106 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jphacks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66D0E5982363117700CFA256 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n\n";
+		};
+		8B31A8EA1FB16BE485DB1D87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jphacks-jphacksUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEA1B22534DD59C795E992F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jphacks/Pods-jphacks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jphacks/Pods-jphacks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jphacks/Pods-jphacks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66D0E56123630F1800CFA256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666D9F55236488B300C91AC9 /* Calendar+Extension.swift in Sources */,
+				64E552FD23632C0600F172F4 /* PlanCandidatesTableViewCell.swift in Sources */,
+				66D0E59C2363191B00CFA256 /* TripInfoClient.swift in Sources */,
+				66F5C0A42363F52F0049D6D6 /* PlanCandidatesTableViewController.swift in Sources */,
+				666D9F582364A61000C91AC9 /* TripInfoRepository.swift in Sources */,
+				666D9F5C23654E5B00C91AC9 /* RetuernTripCandidatesView.swift in Sources */,
+				666D9F5A2365346200C91AC9 /* AirportCodeList.swift in Sources */,
+				640C9C6D2363D69D0011C8B0 /* RouteViewController.swift in Sources */,
+				66D0E56D23630F1800CFA256 /* CancelledTicketInfoInputViewController.swift in Sources */,
+				66F5C0A7236421C60049D6D6 /* TextField+Extension.swift in Sources */,
+				66D0E56923630F1800CFA256 /* AppDelegate.swift in Sources */,
+				66D0E59E2363196A00CFA256 /* TripInfoApi.swift in Sources */,
+				66D0E56B23630F1800CFA256 /* SceneDelegate.swift in Sources */,
+				66D0E59A236311CF00CFA256 /* R.generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D0E57723630F1900CFA256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D0E58023630F1900CFA256 /* jphacksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D0E58223630F1900CFA256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D0E58B23630F1900CFA256 /* jphacksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66D0E57D23630F1900CFA256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66D0E56423630F1800CFA256 /* jphacks */;
+			targetProxy = 66D0E57C23630F1900CFA256 /* PBXContainerItemProxy */;
+		};
+		66D0E58823630F1900CFA256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66D0E56423630F1800CFA256 /* jphacks */;
+			targetProxy = 66D0E58723630F1900CFA256 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66D0E56E23630F1800CFA256 /* CancelledTicketInfoInputViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66D0E56F23630F1800CFA256 /* Base */,
+			);
+			name = CancelledTicketInfoInputViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		66D0E57323630F1900CFA256 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66D0E57423630F1900CFA256 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66D0E58D23630F1900CFA256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66D0E58E23630F1900CFA256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66D0E59023630F1900CFA256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A406311F15CA828D06F307 /* Pods-jphacks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DB8JP5R7QT;
+				INFOPLIST_FILE = jphacks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akio.yamashita.jphacks;
+				PRODUCT_NAME = ATP;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66D0E59123630F1900CFA256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2A5A2D22C1DD82A90F5B9C /* Pods-jphacks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DB8JP5R7QT;
+				INFOPLIST_FILE = jphacks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akio.yamashita.jphacks;
+				PRODUCT_NAME = ATP;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66D0E59323630F1900CFA256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C625CC566F6D28094C2D8DE /* Pods-jphacksTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DB8JP5R7QT;
+				INFOPLIST_FILE = jphacksTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akio.yamashita.jphacksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jphacks.app/jphacks";
+			};
+			name = Debug;
+		};
+		66D0E59423630F1900CFA256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C8AD8C6245F37565AA81509 /* Pods-jphacksTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DB8JP5R7QT;
+				INFOPLIST_FILE = jphacksTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akio.yamashita.jphacksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jphacks.app/jphacks";
+			};
+			name = Release;
+		};
+		66D0E59623630F1900CFA256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9FFF0C72E9539F9CE2B7A7 /* Pods-jphacks-jphacksUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DB8JP5R7QT;
+				INFOPLIST_FILE = jphacksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akio.yamashita.jphacksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jphacks;
+			};
+			name = Debug;
+		};
+		66D0E59723630F1900CFA256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB55FA643A66CE71FE801D3F /* Pods-jphacks-jphacksUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DB8JP5R7QT;
+				INFOPLIST_FILE = jphacksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akio.yamashita.jphacksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jphacks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66D0E56023630F1800CFA256 /* Build configuration list for PBXProject "jphacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D0E58D23630F1900CFA256 /* Debug */,
+				66D0E58E23630F1900CFA256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66D0E58F23630F1900CFA256 /* Build configuration list for PBXNativeTarget "jphacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D0E59023630F1900CFA256 /* Debug */,
+				66D0E59123630F1900CFA256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66D0E59223630F1900CFA256 /* Build configuration list for PBXNativeTarget "jphacksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D0E59323630F1900CFA256 /* Debug */,
+				66D0E59423630F1900CFA256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66D0E59523630F1900CFA256 /* Build configuration list for PBXNativeTarget "jphacksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D0E59623630F1900CFA256 /* Debug */,
+				66D0E59723630F1900CFA256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66D0E55D23630F1800CFA256 /* Project object */;
+}
